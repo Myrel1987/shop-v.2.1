@@ -5,6 +5,9 @@ import {
   createUserDocumentFromAuth,
 } from "../utils/firebase/firebase.utils";
 
+//all this Context things manages all the thing regarding user authentification info and helps us with the architecture of our code
+// and help us to keep our code cleaner
+
 // this component is the actuall value you want to access externaly
 export const UserContext = createContext({
   setCurrentUser: () => null,
@@ -19,7 +22,7 @@ export const UserProvider = ({ children }) => {
   useEffect(() => {
     const unsubscribe = onAuthStateChangedListener((user) => {
       if (user) {
-        createUserDocumentFromAuth(user);
+        createUserDocumentFromAuth(user); //
       }
       setCurrentUser(user);
     });

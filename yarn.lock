@@ -4962,24 +4962,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"crwn-clothing@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "crwn-clothing@workspace:."
-  dependencies:
-    "@testing-library/jest-dom": 5.16.1
-    "@testing-library/react": 12.1.2
-    "@testing-library/user-event": 13.5.0
-    firebase: 9.6.6
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-router-dom: 6
-    react-scripts: 5.0.0
-    sass: 1.49.7
-    styled-components: 5.3.3
-    web-vitals: 2.1.4
-  languageName: unknown
-  linkType: soft
-
 "crypto-random-string@npm:^2.0.0":
   version: 2.0.0
   resolution: "crypto-random-string@npm:2.0.0"
@@ -9390,6 +9372,24 @@ __metadata:
   checksum: 2478859ef817fc5d4e9c2f9e5728512ddd1dbc9fb7829ad263765bb6d3b91ce699d6e2332eef6b7dff183c2f490bd3349f1666427eaba4469fba0ac38dfd0d34
   languageName: node
   linkType: hard
+
+"online-shop@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "online-shop@workspace:."
+  dependencies:
+    "@testing-library/jest-dom": 5.16.1
+    "@testing-library/react": 12.1.2
+    "@testing-library/user-event": 13.5.0
+    firebase: 9.6.6
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-router-dom: 6
+    react-scripts: 5.0.0
+    sass: 1.49.7
+    styled-components: 5.3.3
+    web-vitals: 2.1.4
+  languageName: unknown
+  linkType: soft
 
 "open@npm:^8.0.9, open@npm:^8.4.0":
   version: 8.4.0

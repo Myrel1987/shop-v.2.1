@@ -4,20 +4,17 @@ body {
   font-family: "Open Sans Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // background: rgb(11, 112, 167);
-  // background: linear-gradient(
-  //   90deg,
-  //   rgba(11, 112, 167, 1) 0%,
-  //   rgba(144, 128, 81, 0.8022922636103151) 35%,
-  //   rgba(1, 27, 31, 0.5616045845272206) 95%
-  // );
-  background: rgb(11, 112, 167);
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    90deg,
-    rgba(11, 112, 167, 1) 0%,
-    rgba(196, 150, 13, 0.8022922636103151) 35%,
-    rgba(1, 27, 31, 0.5616045845272206) 95%
-  );
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 code {
