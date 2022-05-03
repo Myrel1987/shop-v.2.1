@@ -27,7 +27,7 @@ const firebaseConfig = {
   storageBucket: "web-shop-11171.appspot.com",
   messagingSenderId: "838427045691",
   appId: "1:838427045691:web:ada380ab66f85e3359911e",
-  measurementId: "G-ZSX1SMKYJT"
+  measurementId: "G-ZSX1SMKYJT",
 };
 
 const app = initializeApp(firebaseConfig);
@@ -46,22 +46,26 @@ export const signInWithGoogleRedirect = () =>
 
 export const db = getFirestore();
 
+//with this function , called in the categories.context.js file, we ////can add our collections to our firebase database, witout typing //////entire collections manually👇🏻
 export const addCollectionAndDocuments = async (
   collectionKey,
   objectsToAdd,
-  field
+  field = "title"
 ) => {
   const collectionRef = collection(db, collectionKey);
   const batch = writeBatch(db);
 
   objectsToAdd.forEach((object) => {
-    const docRef = doc(collectionRef, object.title.toLowerCase());
+    const docRef = doc(collectionRef, object[field].toLowerCase());
     batch.set(docRef, object);
   });
 
   await batch.commit();
   console.log("done");
 };
+//
+//
+//
 
 export const getCategoriesAndDocuments = async () => {
   const collectionRef = collection(db, "categories");
