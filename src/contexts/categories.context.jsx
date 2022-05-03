@@ -1,7 +1,8 @@
-import { createContext, useState, useEffect } from 'react';
+import { createContext, useState, useEffect } from "react";
 
-import { getCategoriesAndDocuments } from '../utils/firebase/firebase.utils';
+import { getCategoriesAndDocuments } from "../utils/firebase/firebase.utils";
 
+//this was actually our products.context file(ProductsContext)
 export const CategoriesContext = createContext({
   categoriesMap: {},
 });
