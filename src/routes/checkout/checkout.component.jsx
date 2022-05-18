@@ -1,16 +1,13 @@
-<<<<<<< HEAD
 import { useContext } from "react";
 
 //React Hook🔽
 import { CartContext } from "../../contexts/cart.context";
-=======
-import { useSelector } from 'react-redux';
+import { useSelector } from "react-redux";
 
 import {
   selectCartItems,
   selectCartTotal,
-} from '../../store/cart/cart.selector';
->>>>>>> lesson-38
+} from "../../store/cart/cart.selector";
 
 import CheckoutItem from "../../components/checkout-item/checkout-item.component";
 

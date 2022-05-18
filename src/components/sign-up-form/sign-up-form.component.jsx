@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 import { useState } from "react";
-=======
-import { useState } from 'react';
-import { useDispatch } from 'react-redux';
->>>>>>> lesson-38
+
+import { useDispatch } from "react-redux";
 
 import FormInput from "../form-input/form-input.component";
 import Button from "../button/button.component";
@@ -13,12 +10,9 @@ import {
   createUserDocumentFromAuth,
 } from "../../utils/firebase/firebase.utils";
 
-<<<<<<< HEAD
 import { SignUpContainer } from "./sign-up-form.styles";
-=======
-import { SignUpContainer } from './sign-up-form.styles';
-import { signUpStart } from '../../store/user/user.action';
->>>>>>> lesson-38
+
+import { signUpStart } from "../../store/user/user.action";
 
 const defaultFormFields = {
   displayName: "",
