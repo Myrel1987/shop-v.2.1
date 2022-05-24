@@ -12,7 +12,6 @@ CHECK_USER_SESSION: 'user/CHECK_USER_SESSION',
   SIGN_IN_FAILURE: 'user/SIGN_IN_FAILURE'
 
 */
-
 export const checkUserSession = () =>
   createAction(USER_ACTION_TYPES.CHECK_USER_SESSION);
 

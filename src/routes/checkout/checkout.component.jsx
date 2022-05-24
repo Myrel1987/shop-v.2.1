@@ -1,7 +1,7 @@
-import { useContext } from "react";
+//import { useContext } from "react";
 
 //React Hook🔽
-import { CartContext } from "../../contexts/cart.context";
+//import { CartContext } from "../../contexts/cart.context";
 import { useSelector } from "react-redux";
 
 import {
@@ -46,6 +46,7 @@ const Checkout = () => {
         <CheckoutItem key={cartItem.id} cartItem={cartItem} />
       ))}
       <Total>Total: ${cartTotal}</Total>
+
       <PaymentForm />
     </CheckoutContainer>
   );
