@@ -3425,6 +3425,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/redux-logger@npm:^3.0.9":
+  version: 3.0.9
+  resolution: "@types/redux-logger@npm:3.0.9"
+  dependencies:
+    redux: ^4.0.0
+  checksum: c41fdc09198fae2d62ff7d6bd029ccae1fed655e6a7abd40614a8db5d6e01adbe565881b2c8d398789804a48259e3399af3939f994a532c11904ba2021799275
+  languageName: node
+  linkType: hard
+
 "@types/resolve@npm:1.17.1":
   version: 1.17.1
   resolution: "@types/resolve@npm:1.17.1"
@@ -9662,6 +9671,7 @@ __metadata:
     "@types/node": ^17.0.35
     "@types/react": ^18.0.9
     "@types/react-dom": ^18.0.5
+    "@types/redux-logger": ^3.0.9
     dotenv: ^16.0.0
     express: ^4.17.3
     firebase: 9.6.6
