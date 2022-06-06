@@ -5087,26 +5087,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"crwn-clothing@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "crwn-clothing@workspace:."
-  dependencies:
-    "@apollo/client": ^3.6.6
-    "@testing-library/jest-dom": 5.16.1
-    "@testing-library/react": 12.1.2
-    "@testing-library/user-event": 13.5.0
-    firebase: 9.6.6
-    graphql: ^16.5.0
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-router-dom: 6
-    react-scripts: 5.0.0
-    sass: 1.49.7
-    styled-components: 5.3.3
-    web-vitals: 2.1.4
-  languageName: unknown
-  linkType: soft
-
 "crypto-random-string@npm:^2.0.0":
   version: 2.0.0
   resolution: "crypto-random-string@npm:2.0.0"
@@ -5835,6 +5815,26 @@ __metadata:
   checksum: 62ba61a830c56801db28ff6305c7d289b6dc9f859054e8c982abd8ee0b0a14d2e9a8e7d086ffee12e868d43e2bbe8a964be55ddbd8c8957714c87373c7a4f9b0
   languageName: node
   linkType: hard
+
+"e-shop@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "e-shop@workspace:."
+  dependencies:
+    "@apollo/client": ^3.6.6
+    "@testing-library/jest-dom": 5.16.1
+    "@testing-library/react": 12.1.2
+    "@testing-library/user-event": 13.5.0
+    firebase: 9.6.6
+    graphql: ^16.5.0
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-router-dom: 6
+    react-scripts: 5.0.0
+    sass: 1.49.7
+    styled-components: 5.3.3
+    web-vitals: 2.1.4
+  languageName: unknown
+  linkType: soft
 
 "ee-first@npm:1.1.1":
   version: 1.1.1
